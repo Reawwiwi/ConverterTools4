@@ -16,10 +16,9 @@ public class MyConstant {
         categoryStrings = new String[6];
         categoryStrings[0] = "Length";
         categoryStrings[1] = "Weigh";
-        categoryStrings[2] = "Temperature";
-        categoryStrings[3] = "Time";
-        categoryStrings[4] = "Area";
-        categoryStrings[5] = "Measure";
+        categoryStrings[2] = "Area";
+        categoryStrings[3] = "Temperature";
+        categoryStrings[4] = "Measure";
 
         return categoryStrings;
     }
@@ -38,18 +37,42 @@ public class MyConstant {
     }
 
     public String[] getUnit1Strings() {
+
+        unit1Strings = new String[3];
+        unit1Strings[0] = "test";
+        unit1Strings[1] = "test1";
+        unit1Strings[2] = "tes2t";
+
         return unit1Strings;
     }
 
     public String[] getUnit2Strings() {
+
+        unit2Strings = new String[3];
+        unit2Strings[0] = "test";
+        unit2Strings[1] = "test1";
+        unit2Strings[2] = "tes2t";
+
         return unit2Strings;
     }
 
     public String[] getUnit3Strings() {
+
+        unit3Strings = new String[3];
+        unit3Strings[0] = "test";
+        unit3Strings[1] = "test1";
+        unit3Strings[2] = "tes2t";
+
         return unit3Strings;
     }
 
     public String[] getUnit4Strings() {
+
+        unit4Strings = new String[3];
+        unit4Strings[0] = "test";
+        unit4Strings[1] = "test1";
+        unit4Strings[2] = "tes2t";
+
         return unit4Strings;
     }
 }   // MyConstant
